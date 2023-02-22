@@ -27,11 +27,16 @@ Once the user has answered all questions or the time has run out, an input form 
 ![image](https://user-images.githubusercontent.com/122234007/220700690-b9f776e8-ef8f-40e8-98b8-86038afb7439.png)
 
 
+
 Their initials and score will be saved to local storage. All saved scores will then be displayed in descending order of score.
+
+![image](https://user-images.githubusercontent.com/122234007/220700837-1df4fe0a-5d1d-48ac-8adb-200c47c5148b.png)
+
 
 
 The user can also click the View High Scores button in the top-left corner of the screen, and the scores will be displayed below the start button.
-![image](https://user-images.githubusercontent.com/122234007/220700837-1df4fe0a-5d1d-48ac-8adb-200c47c5148b.png)
+
+![image](https://user-images.githubusercontent.com/122234007/220704601-601cac39-9bb6-4ed3-b40d-4a491375e7b9.png)
 
 
 ## License
