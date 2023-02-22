@@ -200,11 +200,12 @@ function displayScores() {
   }
   else {
     document.getElementById("scores-list").style.display = "block";
-    var sortedScores = savedScores;
+    document.getElementById("rankings").innerHTML = "";
+    sortedScores = savedScores;
     sortedScores.sort((a, b) => b.score - a.score);
     for (var i = 0; i < sortedScores.length; i++) {
       var scoreListItem = document.createElement("li");
-      scoreListItem.textContent = " " + (sortedScores[i].initials) + " - " + sortedScores[i].score;
+      scoreListItem.textContent = (sortedScores[i].initials) + " - " + sortedScores[i].score;
       scoreList = document.querySelector("#rankings")
       scoreList.appendChild(scoreListItem);
     }
