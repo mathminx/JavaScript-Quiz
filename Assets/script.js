@@ -6,9 +6,24 @@ var quizQuestions = [
   correct: "4. array"
   },
   {
-    questionText: "what will the following operator return? 15 % 2", 
+    questionText: "What will the following operator return? 15 % 2", 
     answers: ["1. 0.3", "2. 7.5", "3. 1", "4. an error message"],
     correct: "3. 1"
+  },
+  {
+    questionText: "Which of these is not a valid string method?", 
+    answers: ["1. slice()", "2. truncate()", "3. charAt()", "4. match()"],
+    correct: "2. truncate()"
+  },
+  {
+    questionText: "Which of the following will return a random number between 0 and 100?", 
+    answers: ["1. math.floor(Math.random(*100))", "2. math.floor(Math.random()*101)", "3. math.floor(Math.random()+100)", "4. math.floor(Math.random()*100)"],
+    correct: "2. math.floor(Math.random()*101)"
+  },
+  {
+    questionText: "What will the array 'var desserts = ['cake', 'ice cream', 'pie', 'profiteroles']' look like after execution of 'desserts.unshift('butter tart')'?", 
+    answers: ["1. ['butter tart', 'cake', 'ice cream', 'pie', 'profiteroles']", "2. ['butter tart', 'ice cream', 'pie', 'profiteroles']", "3. ['cake', 'ice cream', 'pie', 'profiteroles', 'butter tart']", "4. ['ice cream', 'pie', 'profiteroles', 'butter tart']"],
+    correct: "1. ['butter tart', 'cake', 'ice cream', 'pie', 'profiteroles']"
   }
 ]
 
