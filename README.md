@@ -10,11 +10,14 @@ The project is deployed via GitHub Pages.
 
 ## Usage:
 
+The user begins the quiz by clicking the Start button.
+
 The user is presented with a multiple-choice question with four answers to choose from. The user selects an answer by clicking on it. A message will appear above the question area to indicate whether their asnwer was correct or incorrect. The next question is displayed.
 ![image](https://user-images.githubusercontent.com/122234007/220697425-ed5e8079-41e1-414a-9456-94d57034e042.png)
 
 
 The user is prompted to input a length for the password. The user chooses a length of at least 8 characters and no more than 128 characters. The input is validated to ensure that only whole numbers between 8 and 128 are accepted. 
+
 ![image](https://user-images.githubusercontent.com/122234007/220697610-d1385cd9-bcd8-4f8f-b0ec-b8c064bafab5.png)
 
 
