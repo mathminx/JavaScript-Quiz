@@ -23,7 +23,7 @@ var quizQuestions = [
   {
     questionText: "What will the array 'var desserts = ['cake', 'ice cream', 'pie', 'profiteroles']' look like after execution of 'desserts.unshift('butter tart')'?", 
     answers: ["1. ['butter tart', 'cake', 'ice cream', 'pie', 'profiteroles']", "2. ['butter tart', 'ice cream', 'pie', 'profiteroles']", "3. ['cake', 'ice cream', 'pie', 'profiteroles', 'butter tart']", "4. ['ice cream', 'pie', 'profiteroles', 'butter tart']"],
-    correct: "1. ['butter tart', 'cake', 'ice cream', 'pie', 'profiteroles']"
+    correct: "2. math.floor(Math.random()*101)"
   }
 ]
 
