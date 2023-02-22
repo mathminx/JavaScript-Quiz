@@ -15,13 +15,19 @@ The user begins the quiz by clicking the Start button.
 ![image](https://user-images.githubusercontent.com/122234007/220697425-ed5e8079-41e1-414a-9456-94d57034e042.png)
 
 
+
 The user is presented with a multiple-choice question with four answers to choose from. The user selects an answer by clicking on it. A message will appear above the question area to indicate whether their asnwer was correct or incorrect. The next question is displayed.
 
 ![image](https://user-images.githubusercontent.com/122234007/220697610-d1385cd9-bcd8-4f8f-b0ec-b8c064bafab5.png)
 
 
-Once the user has answered all questions or the time has run out, an input form will be displayed where they can enter their initials and click the save button. Their initials and score will be saved to local storage. All saved scores will then be displayed in descending order of score.
+
+Once the user has answered all questions or the time has run out, an input form will be displayed where they can enter their initials and click the save button. 
+
 ![image](https://user-images.githubusercontent.com/122234007/220700690-b9f776e8-ef8f-40e8-98b8-86038afb7439.png)
+
+
+Their initials and score will be saved to local storage. All saved scores will then be displayed in descending order of score.
 
 
 The user can also click the View High Scores button in the top-left corner of the screen, and the scores will be displayed below the start button.
