@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/style.css">
+    <title>Sandbox Module 4 Challenge</title>
+</head>
+
+<body>
+    <header>
+        <button id="scores-btn">View High Scores 🏆</button>
+        <h1>JavaScript Quiz</h1>
+        <button disabled id="timer"></button>
+        <div id="message-box" ></div>
+    </header>
+
+    <main>
+      <!-- Quiz title and instructions -->
+        <div id = "intro">
+          <p>Try to answer a series of code-related questions within the two-minute time limit</p>
+          <p id="beware">☠ BEWARE! ☠</p>
+          <p>Incorrect answers will result in a deduction of 15 seconds from your remaining time!</p>
+          <!-- Start button -->
+          <button id="start-btn">Start Quiz</button>
+        </div>
+
+        <!-- Questions -->
+        <div id="question-card">
+          <h2 id="question-text"></h2>
+          <button id="button-0" class="buttons"></button>
+          <button id="button-1" class="buttons"></button>
+          <button id="button-2" class="buttons"></button>
+          <button id="button-3" class="buttons"></button>
+        </div>
+
+        <!-- Input initials and save score-->
+        <div id="save-score">
+          <h3>You scored <span id="score"></span> out of <span id="q-count"></span></h3>
+          <p>Enter your initials and click</p>
+          <p>'Save' to save your score.</p>
+          <form method="post"></form>
+            <div id="input-initials">
+              <input type="text" id="initials" placeholder="your initials">
+            </div>
+          <button id="save-btn">Save</button>
+        </div>
+
+        <div id="scores-list">
+          <p>High Scores</p>
+          <ol id="rankings"></ol>
+        </div>
+
+    </main>
+  
+    <footer>
+      mathminx ☮
+    </footer>
+  
+      <script src="./Assets/script.js"></script>
+    </body>
+  </html>
