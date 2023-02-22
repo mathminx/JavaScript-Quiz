@@ -1,6 +1,6 @@
 # Challenge 4 - JavaScript Quiz
 
-https://mathminx.github.io/javascript-quiz/
+https://mathminx.github.io/JavaScript-Quiz/
 
 ## Description
 This application is a short quiz on JavaScript that runs in the browser, and is powered by JavaScript code that dynamically updates HTML and CSS. Users are given 5 multiple choice questions to answer in a time limit of 120 seconds (2 minutes). WHen finsihed, the user can save their initials and score, which is added to existing initials-score data in local storage. After the user saves their score information, a list of saved scores is displayed in descending order of scores. The user can also click a button on the screen that will display the scaved scores. This app runs in the browser, and is powered by JavaScript code that dynamically updates HTML and CSS. 
